@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.box {
+  border: 1px solid black;
+  border-radius: 20px 20px 20px 20px;
+  width: 80%;
+}
+
+.box h1{
+  padding: 10px;
+}
+
+.box p {
+  padding: 10px;
+}
